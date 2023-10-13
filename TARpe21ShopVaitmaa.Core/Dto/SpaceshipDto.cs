@@ -8,7 +8,7 @@ using TARpe21ShopVaitmaa.Core.Domain.Spaceship;
 
 namespace TARpe21ShopVaitmaa.Core.Dto
 {
-    internal class SpaceshipDto
+    public class SpaceshipDto
     {
         
         [Key]
