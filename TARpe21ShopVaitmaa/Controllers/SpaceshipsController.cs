@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TARpe21ShopVaitmaa.Data;
+using TARpe21ShopVaitmaa.Models;
+using TARpe21ShopVaitmaa.Models.Spaceship;
 
 namespace TARpe21ShopVaitmaa.Controllers
 {
@@ -16,12 +18,13 @@ namespace TARpe21ShopVaitmaa.Controllers
                 .OrderBy(x => x.CreatedAt)
                 .Select(x => new SpaceshipIndexViewModel
                 {
-                    ID = x.ID,
+                    Id = x.Id,
                     Name = x.Name,
                     Type = x.Type,
                     PassengerCount = x.PassengerCount,
                     EnginePower = x.EnginePower,
                 });
+            return View(result);
         }
     }
 }
