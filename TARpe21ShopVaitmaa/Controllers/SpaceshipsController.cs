@@ -26,5 +26,9 @@ namespace TARpe21ShopVaitmaa.Controllers
                 });
             return View(result);
         }
+        public IActionResult Add()
+        {
+            return View("Edit");
+        }
     }
 }
