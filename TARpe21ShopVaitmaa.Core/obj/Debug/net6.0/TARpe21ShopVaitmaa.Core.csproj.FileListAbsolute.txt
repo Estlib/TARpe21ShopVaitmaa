@@ -1,4 +1,5 @@
 G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa.Core\bin\Debug\net6.0\TARpe21ShopVaitmaa.Core.deps.json
+G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa.Core\bin\Debug\net6.0\TARpe21ShopVaitmaa.Core.runtimeconfig.json
 G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa.Core\bin\Debug\net6.0\TARpe21ShopVaitmaa.Core.dll
 G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa.Core\bin\Debug\net6.0\TARpe21ShopVaitmaa.Core.pdb
 G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa.Core\obj\Debug\net6.0\TARpe21ShopVaitmaa.Core.csproj.AssemblyReference.cache
@@ -9,6 +10,5 @@ G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVait
 G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa.Core\obj\Debug\net6.0\TARpe21ShopVaitmaa.Core.dll
 G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa.Core\obj\Debug\net6.0\refint\TARpe21ShopVaitmaa.Core.dll
 G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa.Core\obj\Debug\net6.0\TARpe21ShopVaitmaa.Core.pdb
-G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa.Core\obj\Debug\net6.0\ref\TARpe21ShopVaitmaa.Core.dll
-G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa.Core\bin\Debug\net6.0\TARpe21ShopVaitmaa.Core.runtimeconfig.json
 G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa.Core\obj\Debug\net6.0\TARpe21ShopVaitmaa.Core.genruntimeconfig.cache
+G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa.Core\obj\Debug\net6.0\ref\TARpe21ShopVaitmaa.Core.dll

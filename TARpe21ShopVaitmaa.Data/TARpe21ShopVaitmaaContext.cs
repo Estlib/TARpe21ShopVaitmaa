@@ -12,6 +12,6 @@ namespace TARpe21ShopVaitmaa.Data
     {
         public TARpe21ShopVaitmaaContext(DbContextOptions<TARpe21ShopVaitmaaContext> options) : base(options) { }
 
-        public DbSet<Spaceship> spaceships { get; set; }
+        public DbSet<Spaceship> Spaceships { get; set; }
     }
 }

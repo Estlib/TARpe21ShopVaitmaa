@@ -24,7 +24,7 @@ namespace TARpe21ShopVaitmaa.ApplicationServices.Services
             {
                 Name = dto.Name,
                 Description = dto.Description,
-                Dimensions = dto.Dimensions,
+                //Dimensions = dto.Dimensions,
                 PassengerCount = dto.PassengerCount,
                 CrewCount = dto.CrewCount,
                 CargoWeight = dto.CargoWeight,

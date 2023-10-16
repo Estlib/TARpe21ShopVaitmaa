@@ -783,6 +783,19 @@
           }
         }
       },
+      "TARpe21ShopVaitmaa.ApplicationServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TARpe21ShopVaitmaa.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TARpe21ShopVaitmaa.ApplicationServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TARpe21ShopVaitmaa.ApplicationServices.dll": {}
+        }
+      },
       "TARpe21ShopVaitmaa.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2029,6 +2042,11 @@
         "version.txt"
       ]
     },
+    "TARpe21ShopVaitmaa.ApplicationServices/1.0.0": {
+      "type": "project",
+      "path": "../TARpe21ShopVaitmaa.ApplicationServices/TARpe21ShopVaitmaa.ApplicationServices.csproj",
+      "msbuildProject": "../TARpe21ShopVaitmaa.ApplicationServices/TARpe21ShopVaitmaa.ApplicationServices.csproj"
+    },
     "TARpe21ShopVaitmaa.Core/1.0.0": {
       "type": "project",
       "path": "../TARpe21ShopVaitmaa.Core/TARpe21ShopVaitmaa.Core.csproj",
@@ -2043,6 +2061,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.22",
+      "TARpe21ShopVaitmaa.ApplicationServices >= 1.0.0",
       "TARpe21ShopVaitmaa.Data >= 1.0.0"
     ]
   },
@@ -2079,6 +2098,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "G:\\Users\\K\\Desktop\\teetch\\shopproject\\tarpe21\\TARpe21ShopVaitmaa\\TARpe21ShopVaitmaa.ApplicationServices\\TARpe21ShopVaitmaa.ApplicationServices.csproj": {
+              "projectPath": "G:\\Users\\K\\Desktop\\teetch\\shopproject\\tarpe21\\TARpe21ShopVaitmaa\\TARpe21ShopVaitmaa.ApplicationServices\\TARpe21ShopVaitmaa.ApplicationServices.csproj"
+            },
             "G:\\Users\\K\\Desktop\\teetch\\shopproject\\tarpe21\\TARpe21ShopVaitmaa\\TARpe21ShopVaitmaa.Data\\TARpe21ShopVaitmaa.Data.csproj": {
               "projectPath": "G:\\Users\\K\\Desktop\\teetch\\shopproject\\tarpe21\\TARpe21ShopVaitmaa\\TARpe21ShopVaitmaa.Data\\TARpe21ShopVaitmaa.Data.csproj"
             }
