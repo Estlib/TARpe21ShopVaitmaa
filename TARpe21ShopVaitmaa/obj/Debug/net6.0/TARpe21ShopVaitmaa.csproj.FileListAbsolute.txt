@@ -70,3 +70,5 @@ G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVait
 G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa\obj\Debug\net6.0\TARpe21ShopVaitmaa.pdb
 G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa\obj\Debug\net6.0\TARpe21ShopVaitmaa.genruntimeconfig.cache
 G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa\obj\Debug\net6.0\ref\TARpe21ShopVaitmaa.dll
+G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa\bin\Debug\net6.0\TARpe21ShopVaitmaa.ApplicationServices.dll
+G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa\bin\Debug\net6.0\TARpe21ShopVaitmaa.ApplicationServices.pdb
