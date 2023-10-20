@@ -14,5 +14,6 @@ namespace TARpe21ShopVaitmaa.Core.ServiceInterface
         Task<Spaceship> GetUpdate(Guid id);
         Task<Spaceship> Update(SpaceshipDto dto);
         Task<Spaceship> Delete(Guid Id);
+        Task<Spaceship> GetAsync(Guid Id);
     }
 }
