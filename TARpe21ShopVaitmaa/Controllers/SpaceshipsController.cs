@@ -188,7 +188,7 @@ namespace TARpe21ShopVaitmaa.Controllers
             {
                 return NotFound();
             }
-            var vm = new SpaceshipDetailsViewModel()
+            var vm = new SpaceshipDeleteViewModel()
             {
                 Id = spaceship.Id,
                 Name = spaceship.Name,
