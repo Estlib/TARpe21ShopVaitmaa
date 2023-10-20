@@ -72,7 +72,7 @@ namespace TARpe21ShopVaitmaa.Controllers
             return RedirectToAction(nameof(Index), vm);
         }
         [HttpGet]
-        public async Task<IActionResult> Edit (Guid id)
+        public async Task<IActionResult> Edit(Guid id)
         {
             var spaceship = await _spaceshipsServices.GetUpdate(id);
             if (spaceship == null)
@@ -134,6 +134,16 @@ namespace TARpe21ShopVaitmaa.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return RedirectToAction(nameof(Index), vm);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Delete(Guid Id)
+        {
+            var spaceshipId = await _spaceshipsServices.Delete(Id);
+            if (spaceshipId == null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            return RedirectToAction(nameof(Index));
         }
     }
 }

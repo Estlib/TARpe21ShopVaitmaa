@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using TARpe21ShopVaitmaa.Core.Domain.Spaceship;
 
 namespace TARpe21ShopVaitmaa.Models.Spaceship
 {
-    public class SpaceshipEditViewModel
+    public class SpaceshipDetailsViewModel
     {
+        [Key]
         public Guid? Id { get; set; } // globally unique identifier
         public string Name { get; set; } // ship name
         public string Description { get; set; } // ship description
@@ -29,9 +29,5 @@ namespace TARpe21ShopVaitmaa.Models.Spaceship
 
         public DateTime CreatedAt { get; set; } // when the entry was created
         public DateTime ModifiedAt { get; set; } // when the entry has been modified last
-
-
-
     }
-
 }

@@ -81,5 +81,16 @@ namespace TARpe21ShopVaitmaa.ApplicationServices.Services
                 .FirstOrDefaultAsync(x => x.Id == id);
             return result;
         }
+
+        public async Task<Spaceship> Delete(Guid Id)
+        {
+            var spaceshipId = await _context.Spaceships
+                .FirstOrDefaultAsync(x => x.Id == Id);
+
+            _context.Spaceships.Remove(spaceshipId);
+            await _context.SaveChangesAsync();
+
+            return spaceshipId;
+        }
     }
 }
