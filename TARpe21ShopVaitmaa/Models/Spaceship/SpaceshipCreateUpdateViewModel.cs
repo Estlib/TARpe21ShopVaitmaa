@@ -3,7 +3,7 @@ using TARpe21ShopVaitmaa.Core.Domain.Spaceship;
 
 namespace TARpe21ShopVaitmaa.Models.Spaceship
 {
-    public class SpaceshipEditViewModel
+    public class SpaceshipCreateUpdateViewModel
     {
         public Guid? Id { get; set; } // globally unique identifier
         public string Name { get; set; } // ship name
