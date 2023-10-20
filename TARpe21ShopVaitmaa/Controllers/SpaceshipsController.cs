@@ -60,10 +60,18 @@ namespace TARpe21ShopVaitmaa.Controllers
                 Type = vm.Type,
                 EnginePower = vm.EnginePower,
                 FuelConsumptionPerDay = vm.FuelConsumptionPerDay,
-                MaintenanceCount= vm.MaintenanceCount,
-                LastMaintenance= vm.LastMaintenance,
-                CreatedAt= vm.CreatedAt,
-                ModifiedAt= vm.ModifiedAt
+                MaintenanceCount = vm.MaintenanceCount,
+                LastMaintenance = vm.LastMaintenance,
+                CreatedAt = vm.CreatedAt,
+                ModifiedAt = vm.ModifiedAt,
+                Files = vm.Files,
+                Image = vm.Image.Select(x => new FileToDatabaseDto
+                {
+                    Id = x.Id,
+                    ImageData = x.ImageData,
+                    ImageTitle = x.ImageTitle,
+                    SpaceshipId = x.SpaceshipId,
+                }).ToArray()
             };
             var result = await _spaceshipsServices.Create(dto);
             if (result == null)
