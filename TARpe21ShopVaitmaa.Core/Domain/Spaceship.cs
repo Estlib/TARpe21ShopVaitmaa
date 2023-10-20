@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TARpe21ShopVaitmaa.Core.Domain.Spaceship
+namespace TARpe21ShopVaitmaa.Core.Domain
 {
     public class Spaceship
     {
