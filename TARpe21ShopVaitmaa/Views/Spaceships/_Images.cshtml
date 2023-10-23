@@ -1,5 +1,7 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model TARpe21ShopVaitmaa.Models.Spaceship.ImageViewModel
+
+<div class="form-group row col-sm-4 offset-2">
+    <div>@Model.ImageTitle</div>
+    <div>@Model.Id</div>
+    <img class="card-img-top" src="@Model.Image" asp-append-version="true"/>
+</div>
