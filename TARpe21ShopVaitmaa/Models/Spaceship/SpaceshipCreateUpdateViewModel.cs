@@ -25,7 +25,7 @@ namespace TARpe21ShopVaitmaa.Models.Spaceship
         public int MaintenanceCount { get; set; } // how many maintenance sessions have been conducted on this ship
         public DateTime LastMaintenance { get; set; } // when was the last maintenance performed
         public List<IFormFile> Files { get; set; } // Files that are to be added to this spaceship
-        public IEnumerable<FileToDatabaseDto> Image { get; set; } = new List<FileToDatabaseDto>(); // images themselves that are added
+        public IEnumerable<ImageViewModel> Image { get; set; } = new List<ImageViewModel>(); // images themselves that are added
 
 
         // only in database

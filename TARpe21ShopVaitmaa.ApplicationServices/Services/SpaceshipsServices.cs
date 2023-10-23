@@ -80,6 +80,10 @@ namespace TARpe21ShopVaitmaa.ApplicationServices.Services
                 CreatedAt = dto.CreatedAt,
                 ModifiedAt = DateTime.Now,
             };
+            if (dto.Files != null)
+            {
+                _files.UploadFilesToDatabase(dto, domain);
+            }
             _context.Spaceships.Update(domain);
             await _context.SaveChangesAsync();
             return domain;
