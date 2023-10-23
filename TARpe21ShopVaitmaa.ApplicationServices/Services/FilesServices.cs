@@ -37,7 +37,7 @@ namespace TARpe21ShopVaitmaa.ApplicationServices.Services
                         photo.CopyTo( target );
                         files.ImageData = target.ToArray();
 
-                        _context.FileToDatabases.Add(files);
+                        _context.FilesToDatabase.Add(files);
                     }
                 }
             }
