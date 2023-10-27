@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -41,6 +42,27 @@ namespace TARpe21ShopVaitmaa.ApplicationServices.Services
                     }
                 }
             }
+        }
+        public async Task <FileToDatabase> RemoveImage(FileToDatabaseDto dto)
+        {
+            var image = await _context.FilesToDatabase
+                .Where(x => x.Id == dto.Id)
+                .FirstOrDefaultAsync();
+            _context.FilesToDatabase.Remove(image);
+            await _context.SaveChangesAsync();
+            return image;
+        }
+        public async Task<List<FileToDatabase>> RemoveImagesFromDatabase(FileToDatabaseDto[] dtos)
+        {
+            foreach (var dto in dtos)
+            {
+                var image = await _context.FilesToDatabase
+                    .Where(x => x.Id == dto.Id)
+                    .FirstOrDefaultAsync();
+                _context.FilesToDatabase.Remove(image);
+                await _context.SaveChangesAsync();
+            }
+            return null;
         }
     }
 }

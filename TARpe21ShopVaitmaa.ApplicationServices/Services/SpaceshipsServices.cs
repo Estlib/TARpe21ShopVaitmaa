@@ -60,6 +60,7 @@ namespace TARpe21ShopVaitmaa.ApplicationServices.Services
         {
             var domain = new Spaceship()
             {
+                Id = dto.Id,
                 Name = dto.Name,
                 Description = dto.Description,
                 //Dimensions = dto.Dimensions,
@@ -95,11 +96,21 @@ namespace TARpe21ShopVaitmaa.ApplicationServices.Services
         //    return result;
         //}
 
-        public async Task<Spaceship> Delete(Guid Id)
+        public async Task<Spaceship> Delete(Guid id)
         {
             var spaceshipId = await _context.Spaceships
-                .FirstOrDefaultAsync(x => x.Id == Id);
+                .FirstOrDefaultAsync(x => x.Id == id);
 
+            var images = await _context.FilesToDatabase
+                .Where(x => x.SpaceshipId == id)
+                .Select(y => new FileToDatabaseDto
+                {
+                    Id = y.Id,
+                    ImageTitle = y.ImageTitle,
+                    SpaceshipId = y.SpaceshipId
+                }).ToArrayAsync();
+
+            await _files.RemoveImagesFromDatabase(images);
             _context.Spaceships.Remove(spaceshipId);
             await _context.SaveChangesAsync();
 
