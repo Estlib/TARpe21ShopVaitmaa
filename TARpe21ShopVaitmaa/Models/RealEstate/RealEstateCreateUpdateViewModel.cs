@@ -1,16 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TARpe21ShopVaitmaa.Core.Domain
+﻿namespace TARpe21ShopVaitmaa.Models.RealEstate
 {
-    public enum EstateType
-    {
-        House, Apartment, Room, Land, ParkingSpace, TimeShare, Garage, StorageUnit, Mansion, Castle, Station
-    }
-    public class RealEstate
+    public class RealEstateCreateUpdateViewModel
     {
         public Guid Id { get; set; } // unique id
         public string Address { get; set; } // street name, house number, flat number.  "Tulika 14-6"
@@ -45,6 +35,6 @@ namespace TARpe21ShopVaitmaa.Core.Domain
 
         public DateTime CreatedAt { get; set; } //when entry was added to the database
         public DateTime ModifiedAt { get; set; } //when wwas entry modified in the database
-
     }
+
 }
