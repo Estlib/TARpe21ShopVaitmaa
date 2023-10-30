@@ -50,10 +50,11 @@ namespace TARpe21ShopVaitmaa.Controllers
         {
             var dto = new RealEstateDto()
             {
-                Id = vm.Id,
+                Id = Guid.NewGuid(),
                 Address = vm.Address,
                 City = vm.City,
                 Country = vm.Country,
+                County = vm.County,
                 SquareMeters = vm.SquareMeters,
                 Price = vm.Price,
                 PostalCode = vm.PostalCode,
@@ -69,8 +70,18 @@ namespace TARpe21ShopVaitmaa.Controllers
                 DoesHaveParkingSpace = vm.DoesHaveParkingSpace,
                 DoesHavePowerGridConnection = vm.DoesHavePowerGridConnection,
                 DoesHaveWaterGridConnection = vm.DoesHaveWaterGridConnection,
-                EstateType = (Core.Dto.EstateType)vm.EstateType
+                Type = vm.Type,
+                IsPropertyNewDevelopment = vm.IsPropertyNewDevelopment,
+                IsPropertySold = vm.IsPropertySold,
+                CreatedAt = DateTime.Now,
+                ModifiedAt = DateTime.Now,
             };
+            var result = await _realEstates.Create(dto);
+            if (result == null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            return RedirectToAction("Index", vm);
         }
     }
 }
