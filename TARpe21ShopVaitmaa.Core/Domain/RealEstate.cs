@@ -41,6 +41,8 @@ namespace TARpe21ShopVaitmaa.Core.Domain
         public bool IsPropertyNewDevelopment { get; set; } //shows if the estate being sold is a newly developed housing unit, or an older existing one
         public bool IsPropertySold { get; set; } //shows if the property has been sold already 
 
+        public IEnumerable<FileToApi> FilesToApi { get; set; } = new List<FileToApi>(); //files to be added to the api
+
         //database only properties
 
         public DateTime CreatedAt { get; set; } //when entry was added to the database

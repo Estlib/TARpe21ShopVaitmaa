@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "R2I5URiRAqrI63SAPNmE6qmD7/s5YJQO2mYHd2ufT6xgbEZOcZYH7PqL3lY0OqZ74EOBVjG0oZ2jXCmvPiigdw==",
+  "dgSpecHash": "m2vYAYvhWIO3exwI0l508lXu0YdFC0D0g4HIXniiGBa8N8p4ZxabDYudoEHS8Y5zg9FI6EctV7AJnRGfGGFwJg==",
   "success": true,
   "projectFilePath": "G:\\Users\\K\\Desktop\\teetch\\shopproject\\tarpe21\\TARpe21ShopVaitmaa\\TARpe21ShopVaitmaa.ApplicationServices\\TARpe21ShopVaitmaa.ApplicationServices.csproj",
   "expectedPackageFiles": [
     "G:\\Users\\K\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "G:\\Users\\K\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
+    "G:\\Users\\K\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
     "G:\\Users\\K\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "G:\\Users\\K\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "G:\\Users\\K\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
@@ -24,6 +26,8 @@
     "G:\\Users\\K\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "G:\\Users\\K\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
     "G:\\Users\\K\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "G:\\Users\\K\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
+    "G:\\Users\\K\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
     "G:\\Users\\K\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "G:\\Users\\K\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "G:\\Users\\K\\.nuget\\packages\\microsoft.extensions.objectpool\\2.2.0\\microsoft.extensions.objectpool.2.2.0.nupkg.sha512",

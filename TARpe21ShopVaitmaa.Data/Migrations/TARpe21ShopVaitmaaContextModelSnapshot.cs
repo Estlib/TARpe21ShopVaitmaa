@@ -22,6 +22,26 @@ namespace TARpe21ShopVaitmaa.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("TARpe21ShopVaitmaa.Core.Domain.FileToApi", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("ExistingFilePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid?>("RealEstateId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RealEstateId");
+
+                    b.ToTable("FilesToApi");
+                });
+
             modelBuilder.Entity("TARpe21ShopVaitmaa.Core.Domain.FileToDatabase", b =>
                 {
                     b.Property<Guid>("Id")
@@ -199,6 +219,18 @@ namespace TARpe21ShopVaitmaa.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Spaceships");
+                });
+
+            modelBuilder.Entity("TARpe21ShopVaitmaa.Core.Domain.FileToApi", b =>
+                {
+                    b.HasOne("TARpe21ShopVaitmaa.Core.Domain.RealEstate", null)
+                        .WithMany("FilesToApi")
+                        .HasForeignKey("RealEstateId");
+                });
+
+            modelBuilder.Entity("TARpe21ShopVaitmaa.Core.Domain.RealEstate", b =>
+                {
+                    b.Navigation("FilesToApi");
                 });
 #pragma warning restore 612, 618
         }
