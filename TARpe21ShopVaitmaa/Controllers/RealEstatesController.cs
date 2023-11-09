@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics.Metrics;
 using System.Net;
 using TARpe21ShopVaitmaa.Core.Dto;
@@ -101,6 +102,13 @@ namespace TARpe21ShopVaitmaa.Controllers
             {
                 return NotFound();
             }
+            var images = await _context.FilesToApi
+                .Where(x => x.RealEstateId == id)
+                .Select(y => new FileToApiViewModel
+                {
+                    FilePath = y.ExistingFilePath,
+                    ImageId = y.Id
+                }).ToArrayAsync();
             var vm = new RealEstateCreateUpdateViewModel();
 
             vm.Id = realEstate.Id;
@@ -128,6 +136,7 @@ namespace TARpe21ShopVaitmaa.Controllers
             vm.IsPropertySold = realEstate.IsPropertySold;
             vm.CreatedAt = DateTime.Now;
             vm.ModifiedAt = DateTime.Now;
+            vm.FileToApiViewModels.AddRange(images);
 
             return View("CreateUpdate", vm);
         }
@@ -185,6 +194,13 @@ namespace TARpe21ShopVaitmaa.Controllers
             {
                 return NotFound();
             }
+            var images = await _context.FilesToApi
+                .Where(x => x.RealEstateId == id)
+                .Select(y => new FileToApiViewModel
+                {
+                    FilePath = y.ExistingFilePath,
+                    ImageId = y.Id
+                }).ToArrayAsync();
 
             var vm = new RealEstateDetailsViewModel();
 
@@ -211,6 +227,9 @@ namespace TARpe21ShopVaitmaa.Controllers
             vm.Type = realEstate.Type;
             vm.IsPropertyNewDevelopment = realEstate.IsPropertyNewDevelopment;
             vm.IsPropertySold = realEstate.IsPropertySold;
+            vm.CreatedAt = realEstate.CreatedAt;
+            vm.ModifiedAt = realEstate.ModifiedAt;
+            vm.FileToApiViewModels.AddRange(images);
 
             return View(vm);
         }
