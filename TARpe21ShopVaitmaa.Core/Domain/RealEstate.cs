@@ -42,6 +42,7 @@ namespace TARpe21ShopVaitmaa.Core.Domain
         public bool IsPropertySold { get; set; } //shows if the property has been sold already 
 
         public IEnumerable<FileToApi> FilesToApi { get; set; } = new List<FileToApi>(); //files to be added to the api
+        //check this to list #5432
 
         //database only properties
 

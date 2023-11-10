@@ -960,6 +960,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\multipleFileUpload\460771b3-4314-46d8-b739-bcca10e285f2_nuuk.bmp))">
+      <SourceType>Package</SourceType>
+      <SourceId>TARpe21ShopVaitmaa</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TARpe21ShopVaitmaa</BasePath>
+      <RelativePath>multipleFileUpload/460771b3-4314-46d8-b739-bcca10e285f2_nuuk.bmp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\multipleFileUpload\460771b3-4314-46d8-b739-bcca10e285f2_nuuk.bmp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\multipleFileUpload\5629239b-b958-42b8-b394-2bef1a6f95ff_shrekipeldik.PNG))">
+      <SourceType>Package</SourceType>
+      <SourceId>TARpe21ShopVaitmaa</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TARpe21ShopVaitmaa</BasePath>
+      <RelativePath>multipleFileUpload/5629239b-b958-42b8-b394-2bef1a6f95ff_shrekipeldik.PNG</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\multipleFileUpload\5629239b-b958-42b8-b394-2bef1a6f95ff_shrekipeldik.PNG))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\TARpe21ShopVaitmaa.bundle.scp.css))">
       <SourceType>Package</SourceType>
       <SourceId>TARpe21ShopVaitmaa</SourceId>
