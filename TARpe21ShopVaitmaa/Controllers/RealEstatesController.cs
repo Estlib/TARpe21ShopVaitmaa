@@ -285,7 +285,7 @@ namespace TARpe21ShopVaitmaa.Controllers
         [HttpPost]
         public async Task<IActionResult> DeleteConfirmation(Guid id)
         {
-            var realEstate = await _realEstates.GetAsync(id);
+            var realEstate = await _realEstates.Delete(id);
             if (realEstate == null)
             {
                 return RedirectToAction(nameof(Index));
