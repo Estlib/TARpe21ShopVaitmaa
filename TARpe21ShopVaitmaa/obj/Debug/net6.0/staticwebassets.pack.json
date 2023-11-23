@@ -245,6 +245,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "G:\\Users\\K\\Desktop\\teetch\\shopproject\\tarpe21\\TARpe21ShopVaitmaa\\TARpe21ShopVaitmaa\\wwwroot\\multipleFileUpload\\f839b1c8-81d9-4157-8911-a58bf8085a4b_shrekipeldik.PNG",
+      "PackagePath": "staticwebassets\\multipleFileUpload\\f839b1c8-81d9-4157-8911-a58bf8085a4b_shrekipeldik.PNG"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TARpe21ShopVaitmaa.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

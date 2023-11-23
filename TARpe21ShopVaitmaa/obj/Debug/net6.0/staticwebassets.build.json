@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q+WzjZ6sEwCOMLsb8mt+pbLuc6RMX06SGpaIRFtPLCY=",
+  "Hash": "x6Ja0opbLygVVXRCCEMB0YeSGqZBeSzboaylPvDPRYU=",
   "Source": "TARpe21ShopVaitmaa",
   "BasePath": "_content/TARpe21ShopVaitmaa",
   "Mode": "Default",
@@ -1069,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "G:\\Users\\K\\Desktop\\teetch\\shopproject\\tarpe21\\TARpe21ShopVaitmaa\\TARpe21ShopVaitmaa\\wwwroot\\multipleFileUpload\\f839b1c8-81d9-4157-8911-a58bf8085a4b_shrekipeldik.PNG",
+      "SourceId": "TARpe21ShopVaitmaa",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\Users\\K\\Desktop\\teetch\\shopproject\\tarpe21\\TARpe21ShopVaitmaa\\TARpe21ShopVaitmaa\\wwwroot\\",
+      "BasePath": "_content/TARpe21ShopVaitmaa",
+      "RelativePath": "multipleFileUpload/f839b1c8-81d9-4157-8911-a58bf8085a4b_shrekipeldik.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\multipleFileUpload\\f839b1c8-81d9-4157-8911-a58bf8085a4b_shrekipeldik.PNG"
     }
   ]
 }
