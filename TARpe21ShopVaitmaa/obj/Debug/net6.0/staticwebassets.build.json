@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8Fc33Vy79+EIx7+qhHkbq+Q2qAweWDm09m4bfc1eSpA=",
+  "Hash": "q+WzjZ6sEwCOMLsb8mt+pbLuc6RMX06SGpaIRFtPLCY=",
   "Source": "TARpe21ShopVaitmaa",
   "BasePath": "_content/TARpe21ShopVaitmaa",
   "Mode": "Default",
@@ -1069,40 +1069,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "G:\\Users\\K\\Desktop\\teetch\\shopproject\\tarpe21\\TARpe21ShopVaitmaa\\TARpe21ShopVaitmaa\\wwwroot\\multipleFileUpload\\460771b3-4314-46d8-b739-bcca10e285f2_nuuk.bmp",
-      "SourceId": "TARpe21ShopVaitmaa",
-      "SourceType": "Discovered",
-      "ContentRoot": "G:\\Users\\K\\Desktop\\teetch\\shopproject\\tarpe21\\TARpe21ShopVaitmaa\\TARpe21ShopVaitmaa\\wwwroot\\",
-      "BasePath": "_content/TARpe21ShopVaitmaa",
-      "RelativePath": "multipleFileUpload/460771b3-4314-46d8-b739-bcca10e285f2_nuuk.bmp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\multipleFileUpload\\460771b3-4314-46d8-b739-bcca10e285f2_nuuk.bmp"
-    },
-    {
-      "Identity": "G:\\Users\\K\\Desktop\\teetch\\shopproject\\tarpe21\\TARpe21ShopVaitmaa\\TARpe21ShopVaitmaa\\wwwroot\\multipleFileUpload\\5629239b-b958-42b8-b394-2bef1a6f95ff_shrekipeldik.PNG",
-      "SourceId": "TARpe21ShopVaitmaa",
-      "SourceType": "Discovered",
-      "ContentRoot": "G:\\Users\\K\\Desktop\\teetch\\shopproject\\tarpe21\\TARpe21ShopVaitmaa\\TARpe21ShopVaitmaa\\wwwroot\\",
-      "BasePath": "_content/TARpe21ShopVaitmaa",
-      "RelativePath": "multipleFileUpload/5629239b-b958-42b8-b394-2bef1a6f95ff_shrekipeldik.PNG",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\multipleFileUpload\\5629239b-b958-42b8-b394-2bef1a6f95ff_shrekipeldik.PNG"
     }
   ]
 }
