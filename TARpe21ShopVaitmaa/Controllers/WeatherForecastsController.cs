@@ -32,10 +32,9 @@ namespace TARpe21ShopVaitmaa.Controllers
         public IActionResult City()
         {
             WeatherResultDto dto = new();
+            WeatherViewModel vm = new();
 
             _weatherForecastServices.WeatherDetail(dto);
-
-            WeatherViewModel vm = new();
 
             vm.Date = dto.EffectiveDate;
             vm.EpochDate = dto.EffectiveEpochDate;
