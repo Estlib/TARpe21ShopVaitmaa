@@ -77,3 +77,12 @@ G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVait
 G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
 G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa\bin\Debug\net6.0\Nancy.dll
 G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa\bin\Debug\net6.0\Newtonsoft.Json.dll
+G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa\bin\Debug\net6.0\MailKit.dll
+G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa\bin\Debug\net6.0\MimeKit.dll
+G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa\bin\Debug\net6.0\NETCore.MailKit.dll
+G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa\bin\Debug\net6.0\System.Formats.Asn1.dll
+G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+G:\Users\K\Desktop\teetch\shopproject\tarpe21\TARpe21ShopVaitmaa\TARpe21ShopVaitmaa\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
